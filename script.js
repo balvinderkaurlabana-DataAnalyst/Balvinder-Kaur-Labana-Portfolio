@@ -1,6 +1,6 @@
 // Add your published project URLs here when ready.
 const PROJECT_LINKS = {
-  vehicle: "", // Example: "https://your-vehicle-dashboard.streamlit.app"
+  vehicle: "https://vehicle-theft-dashboard-gbbmopxyrxvpwxcvzpy4kj.streamlit.app", // Example: "https://your-vehicle-dashboard.streamlit.app"
   sales: ""    // Add your Sales Prediction project URL or GitHub repository URL
 };
 
