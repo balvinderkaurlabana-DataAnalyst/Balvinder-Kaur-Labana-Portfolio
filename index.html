@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Balvinder Kaur — Data Science portfolio showcasing analytics and machine learning projects.">
+  <title>Balvinder Kaur | Data Science Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">BK<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">DATA SCIENCE • ANALYTICS • MACHINE LEARNING</p>
+        <h1>Hi, I'm <span>Balvinder Kaur.</span></h1>
+        <h2>Turning data into meaningful insights.</h2>
+        <p class="intro">I am a Master of Information Technology student specialising in Data Science in New Zealand. I enjoy exploring data, building machine learning models, and creating useful data-driven applications.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore my projects</a>
+          <a class="btn secondary" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Abstract data visualisation illustration">
+        <div class="art-card"><div class="art-top"><span></span><span></span><span></span></div>
+          <div class="chart-title">DATA INSIGHTS</div>
+          <div class="bars"><i style="height:38%"></i><i style="height:65%"></i><i style="height:48%"></i><i style="height:82%"></i><i style="height:58%"></i><i style="height:95%"></i></div>
+          <div class="art-line"></div><div class="art-caption">Discover · Analyse · Predict</div>
+        </div>
+        <div class="float-chip chip-one">Python</div><div class="float-chip chip-two">Machine Learning</div>
+      </div>
+    </section>
+
+    <section class="section soft" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">A LITTLE ABOUT ME</p><h2 class="section-title">Curious about data. Focused on impact.</h2>
+        <p class="section-text">I am currently studying a Master of Information Technology with a specialisation in Data Science at Whitecliffe College. My learning interests include data cleaning, exploratory data analysis, visualisation, predictive modelling, and communicating findings clearly.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow">WHAT I WORK WITH</p><h2 class="section-title">Skills & tools</h2>
+      <div class="skills-grid">
+        <div class="skill">Python</div><div class="skill">Pandas & NumPy</div><div class="skill">Data Cleaning</div>
+        <div class="skill">Exploratory Data Analysis</div><div class="skill">Data Visualisation</div><div class="skill">Machine Learning</div>
+        <div class="skill">Scikit-learn</div><div class="skill">SQL</div><div class="skill">Streamlit</div>
+      </div>
+    </section>
+
+    <section class="section soft" id="projects">
+      <div class="container">
+        <p class="eyebrow">SELECTED WORK</p><h2 class="section-title">My projects</h2>
+        <p class="section-text">A selection of my data science and machine learning work. Project links can be added once your apps or repositories are published.</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-icon">🚗</div><p class="project-type">DATA ANALYTICS · STREAMLIT</p>
+            <h3>Vehicle Theft Dashboard</h3>
+            <p>Interactive dashboard for exploring vehicle theft records by police district, theft date, year, make, and vehicle type. It summarises records and visualises patterns to support area-level exploration.</p>
+            <div class="tags"><span>Python</span><span>Pandas</span><span>Plotly</span><span>Streamlit</span></div>
+            <a class="project-link" href="#" data-link="vehicle">Add dashboard link ↗</a>
+          </article>
+          <article class="project-card">
+            <div class="project-icon">📈</div><p class="project-type">MACHINE LEARNING · REGRESSION</p>
+            <h3>Sales Prediction</h3>
+            <p>Machine learning project focused on preparing retail data, exploring important features, training regression models, and comparing model performance to predict sales.</p>
+            <div class="tags"><span>Python</span><span>Data Cleaning</span><span>Regression</span><span>Scikit-learn</span></div>
+            <a class="project-link" href="#" data-link="sales">Add project link ↗</a>
+          </article>
+        </div>
+        <p class="edit-note">To add a live project URL, open <strong>script.js</strong> and replace the placeholder links in the PROJECT_LINKS section.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-panel">
+        <p class="eyebrow">LET'S CONNECT</p><h2 class="section-title">Have a project or opportunity in mind?</h2>
+        <p class="section-text">I would be happy to connect and discuss data, analytics, and entry-level opportunities.</p>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="mailto:your.email@example.com">Email ↗</a>
+        </div>
+        <p class="edit-note">Update the LinkedIn, GitHub, and email links in <strong>index.html</strong> with your own details.</p>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container footer-inner"><span>© <span id="year"></span> Balvinder Kaur</span><span>Built with curiosity and data.</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
